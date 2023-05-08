@@ -17,7 +17,7 @@ if (isError)
   return `Error! :${error.message}`;
 
   return (
-<div className="text-white border-white border-2 rounded-lg p-8 flex flex-col items-center self-start">
+<div className="text-black border-white border-2 rounded-lg p-8 flex flex-col items-center self-start">
 <h1 className="text-2xl font-bold mt-4 gray border-2 rounded-lg px-5 ">EMPLOYEE DETAILS</h1>
   <h3 className="text-2xl font-bold mt-4">ID:{posts.id}</h3>
   <h3 className="text-xl font-bold mt-4">NAME: {posts.name}</h3>
